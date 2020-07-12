@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void login(View view) {
+        saveweburl();
         TextView tw=(TextView)findViewById(R.id.state);
         EditText Usernameet = (EditText)findViewById(R.id.username);
         EditText Passwordet = (EditText)findViewById(R.id.password);
@@ -84,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    public void saveweburl(View view ) {
+    public void saveweburl( ) {
         EditText weburltextbox = (EditText)findViewById(R.id.weburleditText);
         String weburl = weburltextbox.getText().toString();
         SharedPreferences sharedPreferences2 = getSharedPreferences("sharedPref", MODE_PRIVATE);

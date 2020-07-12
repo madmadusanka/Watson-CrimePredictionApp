@@ -48,6 +48,8 @@
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Submit Data"/>
+        android:text="Submit Data"
+        android:background="@color/orangered"
+        android:textColor="@color/white"/>
 
 </LinearLayout>

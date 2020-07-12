@@ -49,8 +49,8 @@ View _View;
         TextView station=(TextView) view.findViewById(R.id.policestation);
         station.setText(user.pls(username));
         String WebUrl = sharedPreferences.getString("WebUrl", "NotSet");
-        EditText weburltextbox = (EditText)view.findViewById(R.id.EditTextWebUrl);
-        weburltextbox.setText(WebUrl);
+       // EditText weburltextbox = (EditText)view.findViewById(R.id.EditTextWebUrl);
+      //  weburltextbox.setText(WebUrl);
         _View=view;
         return view;
     }
@@ -58,6 +58,7 @@ View _View;
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
     }
+
 
 
 

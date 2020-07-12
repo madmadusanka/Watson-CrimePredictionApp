@@ -59,15 +59,15 @@ public class inputFragment extends Fragment {
         thiscontext=getContext();
 
        data=" { \"crimeId\":8, \"date\":2020-12-15,\" typeId\":2,\"stationId\":2, \"status\":0 }";
-        Button btn=view.findViewById(R.id.submitButton);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+       // Button btn=view.findViewById(R.id.submitButton);
+       // btn.setOnClickListener(new View.OnClickListener() {
+          //  @Override
+        //    public void onClick(View v) {
 
-                SubmitFragment dialog = new SubmitFragment();
-                dialog.setTargetFragment(inputFragment.this, 1);
-                dialog.show(getFragmentManager(),"");
-                submits();
+         //       SubmitFragment dialog = new SubmitFragment();
+           //     dialog.setTargetFragment(inputFragment.this, 1);
+             //   dialog.show(getFragmentManager(),"");
+               // submits();
 
 
 
@@ -85,8 +85,8 @@ public class inputFragment extends Fragment {
                // int stationid =ids.station(station);
                 //String data="CrimeId:"+crimerid+",date:"+date+",typeId:"+crimeid+",stationId:"+stationid+",status:0";
 
-            }
-        });
+            //}
+        //});
         date = view.findViewById(R.id.date);
         date.setOnClickListener(new View.OnClickListener() {
             @Override

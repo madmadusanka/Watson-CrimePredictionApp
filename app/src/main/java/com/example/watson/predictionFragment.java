@@ -48,10 +48,10 @@ public class predictionFragment extends Fragment {
     }
     private void jsonParse() {
         final SharedPreferences sharedPreferences = this.getActivity().getSharedPreferences("sharedPref", MODE_PRIVATE);
-        final String username = sharedPreferences.getString("username","fale");
-        final String WebUrl = sharedPreferences.getString("WebUrl","fale");
+        final String username = sharedPreferences.getString("username","fale"); //username
+        final String WebUrl = sharedPreferences.getString("WebUrl","fale"); //api url
         String url = WebUrl;
-        RequestQueue requestQueue= Volley.newRequestQueue(thiscontext);
+        RequestQueue requestQueue= Volley.newRequestQueue(thiscontext); //using volley lirary calling api
         JsonArrayRequest jsonArrayRequest=new JsonArrayRequest(url, new Response.Listener<JSONArray>() {
             @Override
             public void onResponse(JSONArray response) {
@@ -71,7 +71,7 @@ public class predictionFragment extends Fragment {
                                 String location = employee.getString("location");
                                 String crimetype = employee.getString("crimeType");
                                 String prob = employee.getString("prob");
-                                prediction = prediction + "In this date " + date + " " + crimetype + " will like to be happen in " + location + " area." + "Probability : " + prob + "\n";
+                                prediction = prediction + "In this date " + date + " " + crimetype + " will like to be happen in " + location + " area." + "Probability : " + prob + "\n" + "\n" + "\n";
                                 tw.setText(prediction);
                             }
                         }
@@ -80,12 +80,10 @@ public class predictionFragment extends Fragment {
                             String location = employee.getString("location");
                             String crimetype = employee.getString("crimeType");
                             String prob = employee.getString("prob");
-                            prediction = prediction + "In this date " + date + " " + crimetype + " will like to be happen in " + location + " area." + "Probability : " + prob + "\n";
+                            prediction = prediction + "In this date " + date + " " + crimetype + " will like to be happen in " + location + " area." + "\n"+ "Probability : " + prob + "\n"+ "\n"+ "\n";
                             tw.setText(prediction);
 
                         }
-
-
 
                     } catch (JSONException e) {
                         e.printStackTrace();
@@ -102,7 +100,6 @@ public class predictionFragment extends Fragment {
             }
         });
         requestQueue.add(jsonArrayRequest);
-
     }
 
 }

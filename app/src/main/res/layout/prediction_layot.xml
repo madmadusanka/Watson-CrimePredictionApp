@@ -7,10 +7,12 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:id="@+id/tw"
         android:textColor="#FF0000"
-        android:textSize="30px"
-        android:text="NoData"
+        android:textSize="35px"
+        android:text="No Predictions.... "
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="50dp"
