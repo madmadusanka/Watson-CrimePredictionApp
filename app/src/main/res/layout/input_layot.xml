@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+     >
+     <Spinner
+        android:id="@+id/crimeType"
+        android:layout_width ="match_parent"
+        android:layout_height ="40dp"
+        android:layout_marginTop="10dp"
+        android:hint="Crime"
+        android:textAlignment="center"
+
+        />
+    <Spinner
+        android:id="@+id/policeDivision"
+        android:layout_width ="match_parent"
+        android:layout_height ="40dp"
+        android:layout_marginTop="10dp"
+        android:hint="Police division"
+        android:textAlignment="center"
+        />
+    <Spinner
+        android:id="@+id/policeStation"
+        android:layout_width ="match_parent"
+        android:layout_height ="40dp"
+        android:layout_marginTop="10dp"
+        android:hint="Police station"
+        android:textAlignment="center"
+        />
+
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:windowSoftInputMode="stateHidden"
+        android:hint="Date"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Data"/>
+
+</LinearLayout>

@@ -1,0 +1,313 @@
+<resources>
+    <string name="app_name">Watson</string>
+    <string name="title_activity_home">home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string-array name="crime">
+        <item>Attempted Homicide</item>
+
+        <item> Bank Robbery</item>
+
+        <item> Cheating / Misappropriation</item>
+
+        <item> Counterfeiting Currency</item>
+
+        <item> Grievous Hurt</item>
+
+        <item>HB  theft valued 25000</item>
+
+        <item>  HB theft valued 50000</item>
+
+        <item> Kidnapping Abduction</item>
+
+        <item>Manufacture H C M over 500 gms</item>
+
+        <item> Murder</item>
+
+        <item> Obstructions to police officers</item>
+
+        <item>Offence under weapons Act</item>
+
+        <item> Possession automatic or repeater shot guns</item>
+
+        <item>Possession H C M</item>
+
+        <item> Possession H C M over 500 gms</item>
+
+        <item> Rape / Sexual</item>
+
+        <item>Robbery  above 25000</item>
+
+        <item> Robbery  above 50000</item>
+
+        <item> Serious Riot / Unlawful Assembly</item>
+
+        <item>theft</item>
+
+        <item> Theft of property over 100000</item>
+
+        <item> Theft of property over 25000</item>
+
+        <item>Theft or robbery motor vehicles</item>
+
+
+    </string-array>
+
+    <string-array name="police">
+        <item>NEGOMBO</item>
+
+        <item> GAMPAHA</item>
+
+        <item> KELANIYA</item>
+
+        <item> COLOMBO NORTH</item>
+
+        <item> COLOMBO CENTRAL</item>
+
+        <item> COLOMBO SOUTH</item>
+
+        <item>NUGEGODA</item>
+
+        <item> MT. LAVINIA</item>
+
+        <item>PANADURA</item>
+
+        <item>KALUTARA</item>
+    </string-array>
+    <string-array name="pstation">
+        <item> AIR PORT KATUNAYAKA</item>
+
+        <item> DIVULAPITIYA</item>
+
+        <item>  DUNGALPITIYA</item>
+
+        <item>  KATANA</item>
+
+        <item>  KATUNAYAKA</item>
+
+        <item>  KIMBULAPITIYA</item>
+
+        <item>  KOCHCHIKADE</item>
+
+        <item>  KOTADENIYAWA</item>
+
+        <item>  NEGOMBO</item>
+
+        <item>  PAMUNUGAMA</item>
+
+        <item>  RADDOLUGAMA</item>
+
+        <item>  SEEDUWA</item>
+        <item>  DOMPE</item>
+
+        <item>  GAMPAHA</item>
+
+        <item>  GANEMULLA</item>
+
+        <item>  KIRINDIWELA</item>
+
+        <item>  MALWATHUHIRIPITIYA</item>
+
+        <item>  MEERIGAMA</item>
+
+        <item>  MINUWANGODA</item>
+
+        <item>  NITTAMBUWA</item>
+
+        <item>  PALLEWELA</item>
+
+        <item>  PUGODA</item>
+
+        <item>        VEYANGODA</item>
+
+        <item>  WEERAGULA</item>
+
+        <item>  WELIWERIYA</item>
+
+        <item>  YAKKALA</item>
+
+        <item>  BIYAGAMA</item>
+
+        <item>  JA-ELA</item>
+
+        <item>  KADAWATA</item>
+
+        <item>  KANDANA</item>
+
+        <item>  KELANIYA</item>
+
+        <item>  KIRIBATHGODA</item>
+
+        <item>  MAHABAGE</item>
+
+        <item>  MEEGAHAWATTA</item>
+
+        <item>  PELIYAGODA</item>
+
+        <item>  RAGAMA</item>
+
+        <item>  SAPUGASKANDA</item>
+
+        <item>  WATTALA</item>
+
+        <item>  ANGODA</item>
+
+        <item>  BLUEMANDAL</item>
+
+        <item>  DEMATAGODA</item>
+
+        <item>  FORESHORE</item>
+
+        <item>  GRANDPASS</item>
+
+        <item>  HABOUR</item>
+
+        <item>        KOTAHENA</item>
+
+        <item>  MATTAKKULIYA</item>
+
+        <item>  MODARA</item>
+
+        <item>  DAMSTREET</item>
+
+        <item>  FORT</item>
+
+        <item>  KESELWATTA</item>
+
+        <item>  MALIGAWATTA</item>
+
+        <item>  MARADANA</item>
+
+        <item>  PETTAH</item>
+
+        <item>  SLAVE ISLAND</item>
+
+        <item>  WOULFENDHAN SEREET</item>
+
+        <item>  BAMBALAPITIYA</item>
+
+        <item>  BORELLA</item>
+
+        <item>  CINNAMON GARDE</item>
+
+        <item>  KIRULAPONE</item>
+
+        <item>  KOLLUPITIYA</item>
+
+        <item>  NARAHENPITA</item>
+
+        <item>  WELLAWATTA</item>
+
+        <item>  ATHURUGIRIYA</item>
+
+        <item>  BORALASGAMUWA</item>
+
+        <item>  GOTHATUWA</item>
+
+        <item>  HANWELLA</item>
+
+        <item>  HOMAGAMA</item>
+
+        <item>  KOTTAWA</item>
+
+        <item>  MAHARAGAMA</item>
+
+        <item>  MEEPE</item>
+
+        <item>  MIRIHANA</item>
+
+        <item>  MULLERIYAWA</item>
+
+        <item>  NAWAGAMUWA</item>
+
+        <item>  NUGEGODA</item>
+
+        <item>  PADUKKA</item>
+
+        <item>  TALANGAMA</item>
+
+        <item>  WELIKADA</item>
+
+        <item>  WELLAMPITIYA</item>
+
+        <item>  ANGULANA</item>
+
+        <item>  DEHIWALA</item>
+
+        <item>  EGODAUYANA</item>
+
+        <item>  KAHATUDUWA</item>
+
+        <item>        KOHUWALA</item>
+
+        <item>  MORATUMULLA</item>
+
+        <item>  MORATUWA</item>
+
+        <item>  MT. LAVINIA</item>
+
+        <item>  PILIYANDALA</item>
+
+        <item>  ANGURUWATOTA</item>
+
+        <item>  BANDARAGAMA</item>
+
+        <item>  HORANA</item>
+        <item>INGIRIYA</item>
+        <item>  KESELWATTA</item>
+
+        <item>  MILLANIYA</item>
+
+        <item>  MORAGAHAHENA</item>
+
+        <item>  MORONTHUDUWA</item>
+
+        <item>  PANADURA</item>
+
+        <item>  PANADURA NORTH</item>
+
+        <item>  PANADURA SOUTH</item>
+
+        <item>  WADDUWA</item>
+
+        <item>  ALUTHGAMA</item>
+
+        <item>  BADURALIYA</item>
+
+        <item>  BERUWALA</item>
+
+        <item>  BULATHSINHALA</item>
+
+        <item>  DODANGODA</item>
+
+        <item>  KALUTARA NORTH</item>
+
+        <item>  KALUTARA SOUTH</item>
+
+        <item>  MATHUGAMA</item>
+
+        <item>  MEEGAHATHANNA</item>
+
+        <item>  PAIYAGALA</item>
+
+        <item>  TEBUWANA</item>
+
+        <item>THINIYAWALA</item>
+
+        <item>WELIPENNA</item>
+
+    </string-array>
+
+</resources>
